@@ -1,0 +1,26 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "character": "Frodo",
+            "image": "fakeimagesource",
+            "quote": "I will take it",
+            "movie": "The Fellowship of the Ring"
+        },
+        {
+            "id": 2,
+            "character": "Gandalf",
+            "image": "fakeimagesource",
+            "quote": "I'm not trying to rob you",
+            "movie": "The Fellowship of the Ring" 
+        }
+    ],
+    
+    "facts": [
+        {
+            "id": 1,
+            "fact": "blah blah blah",
+            "movie": "The Two Towers"
+        }
+    ]
+}
