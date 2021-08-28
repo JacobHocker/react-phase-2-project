@@ -4,8 +4,12 @@ body {
 
 .home{
   display:block;
-  padding: 30px;
+  padding: 33px;
   color:white;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  color:white;
 }

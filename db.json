@@ -3,15 +3,15 @@
         {
             "id": 1,
             "character": "Frodo",
-            "image": "fakeimagesource",
-            "quote": "I will take it",
+            "image": "./public/images/frodo-baggins.jpg",
+            "quote": "I will take the ring to Mordor",
             "movie": "The Fellowship of the Ring"
         },
         {
             "id": 2,
             "character": "Gandalf",
             "image": "fakeimagesource",
-            "quote": "I'm not trying to rob you",
+            "quote": "Do not take me for some conjurer of cheap tricks!  I am not trying to rob you.  I'm trying to help you.",
             "movie": "The Fellowship of the Ring" 
         }
     ],
@@ -19,8 +19,7 @@
     "facts": [
         {
             "id": 1,
-            "fact": "blah blah blah",
-            "movie": "The Two Towers"
+            "fact": "That the Lord Of The Rings trilogy were all filmed at the same time in a course of over a year and a half! First time in cinema that was ever done!"
         }
     ]
 }
