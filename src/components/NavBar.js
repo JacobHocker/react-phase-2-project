@@ -4,11 +4,10 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
     const linkStyles = {
         color: "gold",
-        padding: "40px",
-        width: "100px",
         margin: "0 6px 6px",
         textDecoration: "none",
         background: "black",
+        fontSize: "1.5rem",
     }
     return(
         <div className="navbar">
@@ -26,9 +25,6 @@ function NavBar() {
             </NavLink>
             <NavLink to="/submit-a-fact"  style={linkStyles}>
                 Submit A Fact
-            </NavLink>
-            <NavLink to="/edit-a-quote"  style={linkStyles}>
-                Edit A Quote
             </NavLink>
             <NavLink to="/contact-me"  style={linkStyles}>
                 Contact Me

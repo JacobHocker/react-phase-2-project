@@ -7,19 +7,19 @@ function QuotesList() {
             <tbody>
                 <tr>
                     <th>
-                    <h3 className="ui center aligned header">Character:</h3>
+                        <h3>Character:</h3>
                     </th>
                     <th>
-                        <h3 className="ui center aligned header">Quote:</h3>
+                        <h3>Quote:</h3>
                     </th>
                     <th>
-                        <h3 className="ui center aligned header">Movie:</h3>
+                        <h3>Movie:</h3>
                     </th>
                     <th>
-                        <h3 className="ui center aligned header">Edit:</h3>
+                        <h3>Edit:</h3>
                     </th>
                     <th>
-                        <h3 className="ui center aligned header">Delete:</h3>
+                        <h3>Delete:</h3>
                     </th>
                 </tr>
                 <Quotes />
