@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "./NavBar"
 
 function Home() {
     return(
@@ -10,14 +9,13 @@ function Home() {
             src="./images/lore-of-the-rings-title.png" 
             alt="Lore Of The Rings"
            />
-           <p>
+           <h3>
                This is a place where you can find all your favorite quotes from 
                 the Lord Of The Rings and The Hobbit movie franchises!
-           </p>
-           <p>You can also discover facts about the movies, books, characters, and the author
+           </h3>
+            <h3>You can also discover facts about the movies, books, characters, and the author
                himself J. R. R. Tolkien!
-           </p>
-         
+            </h3>
         </div>
     )
 };

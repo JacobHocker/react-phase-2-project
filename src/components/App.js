@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import NavBar from "./NavBar";
+import QuotesContainer from "./QuotesContainer";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Home />
+      <QuotesContainer />
     </div>
   );
 }

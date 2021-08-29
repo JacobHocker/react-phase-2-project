@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     const linkStyles = {
-        color: "white",
+        color: "gold",
         padding: "40px",
         width: "100px",
         margin: "0 6px 6px",
         textDecoration: "none",
-        background: "blue",
+        background: "black",
     }
     return(
         <div className="navbar">
@@ -18,7 +18,7 @@ function NavBar() {
             <NavLink to="/quotes"  style={linkStyles}>
                 Quotes
             </NavLink>
-            <NavLink to="/did-you-know-?"  style={linkStyles}>
+            <NavLink to="/did-you-know"  style={linkStyles}>
                 Did You Know?
             </NavLink>
             <NavLink to="/submit-a-quote"  style={linkStyles}>

@@ -4,7 +4,7 @@ body {
 
 .home{
   display:block;
-  padding: 33px;
+  padding: 50px;
   color:white;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,4 +12,24 @@ body {
 
 .navbar {
   color:white;
+}
+
+.quotes-table {
+  width: 100%;
+  border: 1px solid white;
+  display:block;
+  float: right;
+  color:white;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+  
+  padding-right: 10px;
+}
+
+th, td {
+  text-align: center;
+  border-bottom: 1px solid white;
 }
