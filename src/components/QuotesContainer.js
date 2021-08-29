@@ -17,7 +17,7 @@ function QuotesContainer() {
     return(
         <div className="quote-container">
             <img  src="./images/quotes.png" alt="quotes"></img>
-            <QuotesList quotes={quotes}/>
+            <QuotesList quotes={quotes} />
         </div>
 
     )

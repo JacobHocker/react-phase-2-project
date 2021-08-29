@@ -2,17 +2,24 @@
     "quotes": [
         {
             "id": 1,
-            "character": "Frodo",
-            "image": "./public/images/frodo-baggins.jpg",
+            "character": "Frodo Baggins",
+            "image": "./images/frodo.jpg",
             "quote": "I will take the ring to Mordor",
             "movie": "The Fellowship of the Ring"
         },
         {
             "id": 2,
-            "character": "Gandalf",
-            "image": "fakeimagesource",
+            "character": "Gandalf The Grey",
+            "image": "./images/gandalf.jpg",
             "quote": "Do not take me for some conjurer of cheap tricks!  I am not trying to rob you.  I'm trying to help you.",
             "movie": "The Fellowship of the Ring" 
+        },
+        {
+            "id": 3,
+            "character": "Boromir of Gondor",
+            "image": "./images/boromir.jpg",
+            "quote": "One does not simply walk into Mordor",
+            "movie" :"The Fellowship of the Ring"
         }
     ],
     

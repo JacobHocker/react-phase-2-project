@@ -51,5 +51,7 @@ td {
   border-right: 1px solid white;
 }
 
-
+.table-image {
+  width: 100px; 
+}
 

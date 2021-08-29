@@ -23,6 +23,9 @@ function QuotesList({ quotes }) {
                         <h3>Movie:</h3>
                     </th>
                     <th>
+                        <h3>Image:</h3>
+                    </th>
+                    <th>
                         <h3>Edit:</h3>
                     </th>
                     <th>
