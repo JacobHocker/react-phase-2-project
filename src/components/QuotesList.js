@@ -1,7 +1,14 @@
 import React from 'react';
 import Quotes from "./Quotes"
 
-function QuotesList() {
+function QuotesList({ quotes }) {
+    const quoteList = quotes.map((quote) => (
+        <Quotes
+        key={quote.id}
+        quotes={quote}
+        />
+
+    ))
     return(
         <table className="quotes-table">
             <tbody>
@@ -22,7 +29,7 @@ function QuotesList() {
                         <h3>Delete:</h3>
                     </th>
                 </tr>
-                <Quotes />
+                {quoteList}
             </tbody>
         </table>
     )

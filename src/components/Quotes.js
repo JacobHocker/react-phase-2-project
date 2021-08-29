@@ -1,11 +1,12 @@
 import React from 'react';
 
-function Quotes() {
+function Quotes({ quotes }) {
+    const { character, quote, movie } = quotes
     return(
         <tr>
-            <td>Character Name</td>
-            <td>Character Quote</td>
-            <td>Character Movie</td>
+            <td>{character}</td>
+            <td>{quote}</td>
+            <td>{movie}</td>
             <td>
                 <button>Edit</button>
             </td>
