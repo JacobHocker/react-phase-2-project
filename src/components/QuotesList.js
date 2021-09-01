@@ -1,11 +1,12 @@
 import React from 'react';
 import Quotes from "./Quotes"
 
-function QuotesList({ quotes }) {
+function QuotesList({ quotes, onHandleClick }) {
     const quoteList = quotes.map((quote) => (
         <Quotes
         key={quote.id}
         quotes={quote}
+        onHandleClick={onHandleClick}
         />
 
     ))
