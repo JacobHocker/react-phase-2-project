@@ -52,7 +52,7 @@ function SubmitQuote({ onAddQuote }) {
                         onChange={(event) => setMovie(event.target.value)}
                     />
                     <textarea
-                        name="content"
+                        name="quote"
                         type="text"
                         placeholder='Write the quote here...'
                         rows={10}

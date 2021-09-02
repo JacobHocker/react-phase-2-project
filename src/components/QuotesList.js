@@ -1,12 +1,12 @@
 import React from 'react';
 import Quotes from "./Quotes"
 
-function QuotesList({ quotes, onHandleClick }) {
+function QuotesList({ quotes, onDeleteQuote }) {
     const quoteList = quotes.map((quote) => (
         <Quotes
         key={quote.id}
         quotes={quote}
-        onHandleClick={onHandleClick}
+        onDeleteQuote={onDeleteQuote}
         />
 
     ))

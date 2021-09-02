@@ -1,9 +1,15 @@
 import React from 'react';
 
 
-function Quotes({ quotes }) {
-    const {  image, character, quote, movie } = quotes
+function Quotes({ quotes, onDeleteQuote }) {
+    const { id, image, character, quote, movie } = quotes
 
+    function handleDeleteClick() {
+        fetch(`http://localhost:3001/quotes/${id}`, {
+            method: "DELETE",
+        });
+        onDeleteQuote(id)
+    }
     
 
     return(
@@ -15,10 +21,11 @@ function Quotes({ quotes }) {
                 <img className="table-image" src={image} alt={character} />
             </td>
             <td>
-                <button>Edit</button>
+                <button className='edit-button'>Edit</button>
             </td>
             <td>
-                <button>Delete</button>
+                <button className='delete-button' 
+                onClick={handleDeleteClick}>Delete</button>
             </td>
         </tr>
     )

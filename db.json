@@ -20,13 +20,6 @@
       "image": "./images/boromir.jpg",
       "quote": "One does not simply walk into Mordor",
       "movie": "The Fellowship of the Ring"
-    },
-    {
-      "character": "Samwise Gamgee",
-      "image": "./images/Sam.jpg",
-      "quote": "I can carry it for awhile.  Share the load.",
-      "movie": "Return Of The King",
-      "id": 4
     }
   ],
   "facts": [
