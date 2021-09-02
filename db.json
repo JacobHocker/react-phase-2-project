@@ -20,6 +20,13 @@
       "image": "./images/boromir.jpg",
       "quote": "One does not simply walk into Mordor",
       "movie": "The Fellowship of the Ring"
+    },
+    {
+      "character": "Sauron",
+      "image": "./images/Sauron.jpg",
+      "quote": "Build me an army worthy of Mordor.",
+      "movie": "The Fellowship Of The Ring",
+      "id": 4
     }
   ],
   "facts": [

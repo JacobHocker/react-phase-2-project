@@ -3,16 +3,23 @@ import Facts from "./Facts"
 
 function DidYouKnow() {
     const [facts, setFacts] = useState([])
-
+    const [oneFact, setOneFact] = useState("")
+   
     useEffect(() => {
-        fetch('http://localhost:3001/facts')
+        fetch("http://localhost:3001/facts")
         .then((r) => r.json())
         .then(setFacts)
     },[])
 
-    const factItem = facts.map((fact) => (
-        <Facts key={fact.id} fact={fact.fact} />
-    ))
+    const handleClick = () => {
+        const random = facts[Math.floor(Math.random() * facts.length)];
+        setOneFact(random)
+    }
+
+   
+
+    
+   
 
     return(
         <div className='did-you-know'>
@@ -20,7 +27,7 @@ function DidYouKnow() {
             <h3>There are many fun an interesting facts in the world of Middle Earth.</h3>
             <h3>Whether it's about the books, movies, or the author himself!</h3>
             <h3>Displayed below is a random fun fact about anything within the realm of Middle Earth!</h3>
-            {factItem}
+            <Facts onHandleClick={handleClick} fact={oneFact.fact} />
         </div>
 
     )

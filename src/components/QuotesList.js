@@ -15,22 +15,22 @@ function QuotesList({ quotes, onDeleteQuote }) {
             <tbody>
                 <tr>
                     <th>
-                        <h3>Character:</h3>
+                        <h3 className='table-header'>Character:</h3>
                     </th>
                     <th>
-                        <h3>Quote:</h3>
+                        <h3 className='table-header'>Quote:</h3>
                     </th>
                     <th>
-                        <h3>Movie:</h3>
+                        <h3 className='table-header'>Movie:</h3>
                     </th>
                     <th>
-                        <h3>Image:</h3>
+                        <h3 className='table-header'>Image:</h3>
                     </th>
                     <th>
-                        <h3>Edit:</h3>
+                        <h3 className='table-header'>Edit:</h3>
                     </th>
                     <th>
-                        <h3>Delete:</h3>
+                        <h3 className='table-header'>Delete:</h3>
                     </th>
                 </tr>
                 {quoteList}
