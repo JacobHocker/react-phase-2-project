@@ -57,6 +57,9 @@ td {
   padding-top: 20px;
   border-right: 1px solid white;
 }
+.submit-quote {
+  padding: 50px;
+}
 
 .table-image {
   width: 100px; 

@@ -1,36 +1,42 @@
 {
-    "quotes": [
-        {
-            "id": 1,
-            "character": "Frodo Baggins",
-            "image": "./images/frodo.jpg",
-            "quote": "I will take the ring to Mordor",
-            "movie": "The Fellowship of the Ring"
-        },
-        {
-            "id": 2,
-            "character": "Gandalf The Grey",
-            "image": "./images/gandalf.jpg",
-            "quote": "Do not take me for some conjurer of cheap tricks!  I am not trying to rob you.  I'm trying to help you.",
-            "movie": "The Fellowship of the Ring" 
-        },
-        {
-            "id": 3,
-            "character": "Boromir of Gondor",
-            "image": "./images/boromir.jpg",
-            "quote": "One does not simply walk into Mordor",
-            "movie" :"The Fellowship of the Ring"
-        }
-    ],
-    
-    "facts": [
-        {
-            "id": 1,
-            "fact": "That the Lord Of The Rings trilogy were all filmed at the same time in a course of over a year and a half! First time in cinema that was ever done!"
-        },
-        {
-            "id": 2,
-            "fact": "That Vigo Mortenson the actor who played Aragorn broke his foot during the middle of a scene but continued acting.  In fact that take is in the Two Towers"
-        }
-    ]
+  "quotes": [
+    {
+      "id": 1,
+      "character": "Frodo Baggins",
+      "image": "./images/frodo.jpg",
+      "quote": "I will take the ring to Mordor",
+      "movie": "The Fellowship of the Ring"
+    },
+    {
+      "id": 2,
+      "character": "Gandalf The Grey",
+      "image": "./images/gandalf.jpg",
+      "quote": "Do not take me for some conjurer of cheap tricks!  I am not trying to rob you.  I'm trying to help you.",
+      "movie": "The Fellowship of the Ring"
+    },
+    {
+      "id": 3,
+      "character": "Boromir of Gondor",
+      "image": "./images/boromir.jpg",
+      "quote": "One does not simply walk into Mordor",
+      "movie": "The Fellowship of the Ring"
+    },
+    {
+      "character": "Samwise Gamgee",
+      "image": "./images/Sam.jpg",
+      "quote": "I can carry it for awhile.  Share the load.",
+      "movie": "Return Of The King",
+      "id": 4
+    }
+  ],
+  "facts": [
+    {
+      "id": 1,
+      "fact": "That the Lord Of The Rings trilogy were all filmed at the same time in a course of over a year and a half! First time in cinema that was ever done!"
+    },
+    {
+      "id": 2,
+      "fact": "That Vigo Mortenson the actor who played Aragorn broke his foot during the middle of a scene but continued acting.  In fact that take is in the Two Towers"
+    }
+  ]
 }

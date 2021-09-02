@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import QuotesList from "./QuotesList";
 import Search from "./Search";
+import SubmitQuote from './SubmitQuote';
 
 
 function QuotesContainer() {
@@ -14,10 +15,10 @@ function QuotesContainer() {
         .then(setQuotes)
     }, [])
 
-   /* function handleAddQuote(newQuote) {
+    function handleAddQuote(newQuote) {
         const updatedQuote = [...quotes, newQuote]
         setQuotes(updatedQuote)
-    }*/
+    }
 
    
 
@@ -30,7 +31,7 @@ function QuotesContainer() {
             <h3>Here in the quotes section you can view</h3>
             <Search searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
             <QuotesList quotes={quotesToDisplay} />
-            {/*<SubmitQuote onAddQuote={handleAddQuote} />*/}
+            <SubmitQuote onAddQuote={handleAddQuote} />
         </div>
 
     )
