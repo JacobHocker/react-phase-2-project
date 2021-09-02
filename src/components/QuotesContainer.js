@@ -14,7 +14,12 @@ function QuotesContainer() {
         .then(setQuotes)
     }, [])
 
+   /* function handleAddQuote(newQuote) {
+        const updatedQuote = [...quotes, newQuote]
+        setQuotes(updatedQuote)
+    }*/
 
+   
 
     const quotesToDisplay = quotes.filter((quote) => 
     quote.character.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -22,8 +27,10 @@ function QuotesContainer() {
     return(
         <div className="quote-container">
             <img  src="./images/quotes.png" alt="quotes" ></img>
+            <h3>Here in the quotes section you can view</h3>
             <Search searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
             <QuotesList quotes={quotesToDisplay} />
+            {/*<SubmitQuote onAddQuote={handleAddQuote} />*/}
         </div>
 
     )

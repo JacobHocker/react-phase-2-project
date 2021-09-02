@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import QuotesContainer from "./QuotesContainer";
+import DidYouKnow from "./DidYouKnow";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Home />
       <QuotesContainer />
+      <DidYouKnow />
     </div>
   );
 }

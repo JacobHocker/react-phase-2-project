@@ -8,6 +8,7 @@ body {
   color:white;
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid gold;
 }
 
 .navbar {
@@ -21,9 +22,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 2px solid gold;
+  padding: 50px;
 }
 
-
+.quote-container h3 {
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 .quotes-table {
@@ -56,3 +62,10 @@ td {
   width: 100px; 
 }
 
+.did-you-know {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
