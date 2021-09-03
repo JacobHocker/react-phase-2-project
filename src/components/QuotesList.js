@@ -27,9 +27,6 @@ function QuotesList({ quotes, onDeleteQuote }) {
                         <h3 className='table-header'>Image:</h3>
                     </th>
                     <th>
-                        <h3 className='table-header'>Edit:</h3>
-                    </th>
-                    <th>
                         <h3 className='table-header'>Delete:</h3>
                     </th>
                 </tr>
