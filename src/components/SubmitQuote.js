@@ -52,6 +52,7 @@ function SubmitQuote({ onAddQuote }) {
                         onChange={(event) => setMovie(event.target.value)}
                     />
                     <textarea
+                        className='submit-quote-area'
                         name="quote"
                         type="text"
                         placeholder='Write the quote here...'
@@ -60,7 +61,7 @@ function SubmitQuote({ onAddQuote }) {
                         onChange={(event) => setQuote(event.target.value)}
                     />
                  </div>
-                 <button className='submit-quote-button' type="submit">
+                 <button className='button' type="submit">
                      Submit Quote!
                  </button>
             </form>

@@ -79,3 +79,30 @@ td {
   align-items: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.button {
+  box-shadow:inset 0px 1px 3px 0px #fce95b;
+	background:linear-gradient(to bottom, #ffe224 5%, #c7800e 100%);
+	background-color:#ffe224;
+	border-radius:5px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #ffee66;
+}
+
+.button:hover {
+  background:linear-gradient(to bottom, #c7800e 5%, #ffe224 100%);
+	background-color:#c7800e;
+}
+
+.button:active {
+  position:relative;
+	top:1px;
+}

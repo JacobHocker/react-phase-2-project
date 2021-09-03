@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Facts from "./Facts"
+import SubmitFacts from './SubmitFacts';
 
 function DidYouKnow() {
     const [facts, setFacts] = useState([])
@@ -17,7 +18,10 @@ function DidYouKnow() {
     }
 
    
-
+    function handleAddFact(newFact) {
+        const updatedFacts = [...facts, newFact]
+        setFacts(updatedFacts)
+    }
     
    
 
@@ -28,6 +32,7 @@ function DidYouKnow() {
             <h3>Whether it's about the books, movies, or the author himself!</h3>
             <h3>Displayed below is a random fun fact about anything within the realm of Middle Earth!</h3>
             <Facts onHandleClick={handleClick} fact={oneFact.fact} />
+            <SubmitFacts onAddFacts={handleAddFact} />
         </div>
 
     )

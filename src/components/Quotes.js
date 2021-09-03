@@ -21,10 +21,10 @@ function Quotes({ quotes, onDeleteQuote }) {
                 <img className="table-image" src={image} alt={character} />
             </td>
             <td>
-                <button className='edit-button'>Edit</button>
+                <button className='button'>Edit</button>
             </td>
             <td>
-                <button className='delete-button' 
+                <button className='button' 
                 onClick={handleDeleteClick}>Delete</button>
             </td>
         </tr>
