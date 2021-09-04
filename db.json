@@ -22,9 +22,9 @@
       "movie": "The Fellowship of the Ring"
     },
     {
-      "character": "Sauron",
-      "image": "./images/Sauron.jpg",
-      "quote": "Build me an army worthy of Mordor.",
+      "character": "Samwise Gamgee",
+      "image": "./images/Sam.jpg",
+      "quote": "If I take one more step.  It will be the farthest away from home I've ever been.",
       "movie": "The Fellowship Of The Ring",
       "id": 4
     }
@@ -41,6 +41,14 @@
     {
       "fact": "That talk show host Stephen Colbert has cameos in the Hobbit the Desolation of Smaug",
       "id": 3
+    },
+    {
+      "fact": "That Orlando Bloom, the actor that played Legolas, had to work 4 months with a broken back on set after a boating accident.",
+      "id": 4
+    },
+    {
+      "fact": "J. R. R. Tolkien died before he could see the live action adaptation of his wonderful creation.\n",
+      "id": 5
     }
   ]
 }

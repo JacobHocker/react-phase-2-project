@@ -31,7 +31,7 @@ function QuotesContainer() {
 
     return(
         <div className="quote-container">
-            <img  src="./images/quotes.png" alt="quotes" ></img>
+            <img  src="./images/quotes-1.png" alt="quotes" ></img>
             <h3>Here in the quotes section you can view</h3>
             <Search searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
             <QuotesList quotes={quotesToDisplay} onDeleteQuote={handleDeleteQuote} />
