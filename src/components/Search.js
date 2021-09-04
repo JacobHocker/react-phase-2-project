@@ -7,7 +7,9 @@ function Search({ searchTerm, onChangeSearch }) {
     }
     return(
         <div className="search-bar">
+            <span>Search For Quotes</span>
             <input
+            className='search'
             type="text"
             placeholder='Search By Character'
             value={searchTerm}

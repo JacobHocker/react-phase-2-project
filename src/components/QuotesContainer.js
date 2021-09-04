@@ -30,13 +30,15 @@ function QuotesContainer() {
     quote.character.toLowerCase().includes(searchTerm.toLowerCase()))
 
     return(
-        <div className="quote-container">
+        <section className="quote-container">
             <img  src="./images/quotes-1.png" alt="quotes" ></img>
-            <h3>Here in the quotes section you can view</h3>
+            <img src='./images/moria-gates.jpg' alt='gates of moria' className='moria' />
+            <h3>Here you can view, delete ,and submit quotes from</h3>
+            <h3>The Lord Of The Rings and The Hobbit trilogies!</h3>
             <Search searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
             <QuotesList quotes={quotesToDisplay} onDeleteQuote={handleDeleteQuote} />
             <SubmitQuote onAddQuote={handleAddQuote} />
-        </div>
+        </section>
 
     )
 }

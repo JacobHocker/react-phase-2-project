@@ -19,7 +19,7 @@ function SubmitFacts({ onAddFacts }) {
     }
     return(
         <div className='submit-fact'>
-            <img src='./images/submit-a-fact.png' alt='submit a fact' />
+            <img src='./images/submit-a-fact-1.png' alt='submit a fact' />
             <form onSubmit={handleSubmit}>
                 <div className='facts-input'>
                     <textarea

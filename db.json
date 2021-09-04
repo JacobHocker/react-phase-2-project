@@ -27,6 +27,13 @@
       "quote": "If I take one more step.  It will be the farthest away from home I've ever been.",
       "movie": "The Fellowship Of The Ring",
       "id": 4
+    },
+    {
+      "character": "Thorin Oakenshield",
+      "image": "./images/Thorin.jpg",
+      "quote": "If this is to end in fire.  Then we shall all burn together!",
+      "movie": "The Hobbit: Battle Of The Five Armies",
+      "id": 5
     }
   ],
   "facts": [
@@ -49,6 +56,10 @@
     {
       "fact": "J. R. R. Tolkien died before he could see the live action adaptation of his wonderful creation.\n",
       "id": 5
+    },
+    {
+      "fact": "Christopher Lee had read The Lord Of The Rings & The Hobbit once a year for 40 years, before being cast in the role of Sarumon.",
+      "id": 6
     }
   ]
 }

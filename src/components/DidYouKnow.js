@@ -26,15 +26,18 @@ function DidYouKnow() {
    
 
     return(
-        <div className='did-you-know'>
-            <img src='./images/did-you-know.png' alt='did you know' />
-            <p>There are many fun an interesting facts in the world of Middle Earth.</p>
-            <p>Whether it's about the books, movies, or the author himself!</p>
-            <p>Displayed below is a random fun fact about anything within the realm of Middle Earth!</p>
-            <p>To start click the 'Did You Know?' button!</p>
+        <section className='fact-container'>
+            <div className='did-you-know-intro'>
+                <img src='./images/did-you-know-1.png' alt='did you know' className='did-you-know-img' /> <br />
+                <img src='./images/sauron-hobbit.gif' alt='sauron-hobbit' />
+                <p>There are many fun an interesting facts in the world of Middle Earth.</p>
+                <p>Whether it's about the books, movies, or the author himself!</p>
+                <p>Displayed below is a random fun fact about anything within the realm of Middle Earth!</p>
+                <p>To start click the 'Did You Know?' button!</p>
+            </div>
             <Facts onHandleClick={handleClick} fact={oneFact.fact} />
             <SubmitFacts onAddFacts={handleAddFact} />
-        </div>
+        </section>
 
     )
 }

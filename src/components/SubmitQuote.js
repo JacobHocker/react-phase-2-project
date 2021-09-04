@@ -27,10 +27,11 @@ function SubmitQuote({ onAddQuote }) {
 
     return(
         <div className='submit-quote'>
-            <img src='./images/submit-a-quote.png' alt='submit a quote' />
+            <img src='./images/submit-a-quote-1.png' alt='submit a quote' />
             <form onSubmit={handleSubmit}>
                 <div className='quote-inputs'>
                     <input
+                        className='input-quote'
                         type="text"
                         placeholder='Character Name'
                         name="Character"
@@ -38,6 +39,7 @@ function SubmitQuote({ onAddQuote }) {
                         onChange={(event) => setCharacter(event.target.value)}
                     />
                     <input
+                        className='input-quote'
                         type="text"
                         placeholder='Image Url'
                         name="Image"
@@ -45,6 +47,7 @@ function SubmitQuote({ onAddQuote }) {
                         onChange={(event) => setImage(event.target.value)}
                     />
                     <input
+                        className='input-quote'
                         type="text"
                         name="Movie"
                         placeholder='Movie title'
