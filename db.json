@@ -34,6 +34,41 @@
       "quote": "If this is to end in fire.  Then we shall all burn together!",
       "movie": "The Hobbit: Battle Of The Five Armies",
       "id": 5
+    },
+    {
+      "character": "Sauron",
+      "image": "./images/Sauron.jpg",
+      "quote": "Build me an army worth of Mordor.",
+      "movie": "The Fellowship Of The Ring",
+      "id": 6
+    },
+    {
+      "character": "Peregrin Took",
+      "image": "./images/pippin.png",
+      "quote": "What about breakfast?  We've had one, yes.  But, what about second breakfast?",
+      "movie": "The Fellowship Of The Ring",
+      "id": 7
+    },
+    {
+      "character": "Gimli Son of Gloin",
+      "image": "./images/Gimli.png",
+      "quote": "There are rumors that there are no dwarf women.  And that dwarves spring out of holes in the ground!",
+      "movie": "The Two Towers",
+      "id": 8
+    },
+    {
+      "character": "Lord Elrond",
+      "image": "./images/elrond.jpg",
+      "quote": "The Ring cannot be destroyed, Gimli, son of Glóin, by any craft that we here possess. The Ring was made in the fires of Mount Doom. Only there can it be unmade. It must be taken deep into Mordor and cast back into the fiery chasm from whence it came.",
+      "movie": "The Fellowship Of The Ring",
+      "id": 9
+    },
+    {
+      "character": "Aragorn King Of Gondor",
+      "image": "./images/Aragorn.jpg",
+      "quote": "My friends... You bow to no one.",
+      "movie": "The Return Of The King",
+      "id": 10
     }
   ],
   "facts": [
